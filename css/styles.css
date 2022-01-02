@@ -1,0 +1,48 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.gradient{
+     background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,33,165,1) 35%, rgba(0,212,255,1) 100%); 
+}
+
+.page-header{
+    margin-top: 4rem;
+    color: white;
+}
+.feature{
+    color: white;
+}
+.feature ul{
+    list-style-type: none;
+   
+}
+.feature ul li {
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    background-image: url(../img/check.svg);
+    background-repeat: no-repeat;
+}
+.icon{
+    color: #fff;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.75rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery{
+    background-color: whitesmoke;
+}
+.gallery img{
+    border-radius: 5%;
+}
+.services{
+    color: #fff;
+}
